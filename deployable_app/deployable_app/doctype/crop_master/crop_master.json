@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "CR.####",
+ "creation": "2024-12-03 22:08:06.523222",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "crop_name",
+  "crop_variety",
+  "column_break_w5dn",
+  "maturity_period_in_days",
+  "section_break_spjt",
+  "fertilizer_suggestions_table"
+ ],
+ "fields": [
+  {
+   "fieldname": "crop_name",
+   "fieldtype": "Data",
+   "label": "Crop Name"
+  },
+  {
+   "fieldname": "crop_variety",
+   "fieldtype": "Data",
+   "label": "Crop Variety"
+  },
+  {
+   "fieldname": "maturity_period_in_days",
+   "fieldtype": "Int",
+   "label": "Maturity Period in Days"
+  },
+  {
+   "fieldname": "fertilizer_suggestions_table",
+   "fieldtype": "Table",
+   "label": "Fertilizer Suggestions (Table)",
+   "options": "Ferilizer Suggestion"
+  },
+  {
+   "fieldname": "column_break_w5dn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_spjt",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-04 19:00:45.781883",
+ "modified_by": "Administrator",
+ "module": "deployable_app",
+ "name": "Crop Master",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

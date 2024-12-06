@@ -1,0 +1,133 @@
+{
+ "actions": [],
+ "autoname": "PM.#####",
+ "creation": "2024-12-03 22:29:10.055050",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "farm_master",
+  "farmer_name",
+  "village",
+  "column_break_xkm5",
+  "dist",
+  "farm_area_in_acres",
+  "soil_type",
+  "section_break_2jso",
+  "crop_master",
+  "crop_name",
+  "crop_variety",
+  "column_break_r0sk",
+  "maturity_period_in_days",
+  "plantation_date",
+  "section_break_czh0",
+  "fertilizer_plan"
+ ],
+ "fields": [
+  {
+   "fieldname": "farm_master",
+   "fieldtype": "Link",
+   "label": "Farm Master ",
+   "options": "Farm Master",
+   "unique": 1
+  },
+  {
+   "fieldname": "farmer_name",
+   "fieldtype": "Data",
+   "label": "Farmer Name"
+  },
+  {
+   "fieldname": "dist",
+   "fieldtype": "Data",
+   "label": "Dist "
+  },
+  {
+   "fieldname": "farm_area_in_acres",
+   "fieldtype": "Data",
+   "label": "Farm Area in Acres"
+  },
+  {
+   "fieldname": "soil_type",
+   "fieldtype": "Select",
+   "label": "Soil Type",
+   "options": "Black\nRed\nGrey"
+  },
+  {
+   "fieldname": "section_break_2jso",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "crop_name",
+   "fieldtype": "Data",
+   "label": "Crop Name"
+  },
+  {
+   "fieldname": "crop_variety",
+   "fieldtype": "Data",
+   "label": "Crop Variety "
+  },
+  {
+   "fieldname": "maturity_period_in_days",
+   "fieldtype": "Int",
+   "label": "Maturity Period in Days"
+  },
+  {
+   "fieldname": "plantation_date",
+   "fieldtype": "Date",
+   "label": "Plantation Date "
+  },
+  {
+   "fieldname": "fertilizer_plan",
+   "fieldtype": "Table",
+   "label": "Fertilizer Plan",
+   "options": "Fertilizer Calculation"
+  },
+  {
+   "fieldname": "column_break_xkm5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_r0sk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_czh0",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "village",
+   "fieldtype": "Data",
+   "label": "Village "
+  },
+  {
+   "fieldname": "crop_master",
+   "fieldtype": "Link",
+   "label": "Crop Data",
+   "options": "Crop Master"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-04 19:25:10.748742",
+ "modified_by": "Administrator",
+ "module": "deployable_app",
+ "name": "Plantation Master",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

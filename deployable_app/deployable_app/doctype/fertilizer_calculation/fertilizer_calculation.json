@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-03 22:40:32.587137",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "dose",
+  "days",
+  "suggested",
+  "column_break_6rdf",
+  "fertilizer_name",
+  "quantity",
+  "units_of_measure"
+ ],
+ "fields": [
+  {
+   "fieldname": "dose",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Dose"
+  },
+  {
+   "fieldname": "days",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Days"
+  },
+  {
+   "fieldname": "suggested",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Suggested"
+  },
+  {
+   "fieldname": "fertilizer_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Fertilizer Name"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "units_of_measure",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Units of Measure"
+  },
+  {
+   "fieldname": "column_break_6rdf",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-12-05 19:28:48.390726",
+ "modified_by": "Administrator",
+ "module": "deployable_app",
+ "name": "Fertilizer Calculation",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
